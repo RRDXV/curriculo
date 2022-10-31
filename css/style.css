@@ -17,11 +17,17 @@
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {}
+
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+	
+
+	.container-fluid {
+		margin: 0px 10% center;
+	}
 	#cab {
 		background-image: url('../img/bg.svg');
 		background-position: center;
@@ -81,6 +87,7 @@ header div img {
 
 #ff h2, #ff h3{
 	padding: 0px;
+	text-align: center;
 }
 
 .container img{
