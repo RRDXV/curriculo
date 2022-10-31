@@ -8,6 +8,29 @@
 	src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 	font-family: 'Roboto', sans-serif;
 }
+
+/* Small devices (landscape phones, 576px and up)*/*
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	#cab {
+		background-image: url('../img/bg.svg');
+		background-position: center;
+		background-size: 100% auto;
+    	background-repeat: no-repeat;
+	}
+}
+
+
 p,h1,h2,h3,h4,h5,h6 {
 	letter-spacing: 0.06em;
 }
@@ -33,20 +56,35 @@ ul{
 	list-style: none;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	border-bottom: 2px solid #ccc;
+	
 }
 
-#foto-c {
-	text-align: center;
+#fd {
+	padding-bottom: 16px;
 }
+
+header div {
+    width: 250px;
+    margin: auto;
+    background-color:#F4F4F4;
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+}
+
+
+header div img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+#ff h2, #ff h3{
+	padding: 0px;
+}
+
 .container img{
-	padding: 16px;
-}
-
-.foto {
-	border-radius: 50%;
-	width: 250px;
-	height: 250px;
+	padding: 6px;
 }
 
 #cab {
@@ -61,7 +99,13 @@ ul{
 	display: flex;
     align-items: center;
     justify-content: center;
+	background-color: rgba(244,244,244, 0.7);
+	border-radius: 16px;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
+
+
 
 
 /* Corpo */
