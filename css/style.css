@@ -8,16 +8,6 @@
 	src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 	font-family: 'Roboto', sans-serif;
 }
-*display-font-sizes {
-	
-1: 5rem,
-  2: 4.5rem,
-  3: 4rem,
-  4: 3.5rem,
-  5: 3rem,
-  6: 2.5rem
-}
-
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -72,7 +62,15 @@ ul{
 	padding: 0;
 	margin: 0;
 }
-
+ #par {
+	font-size: 1rem;
+ }
+ #imp {
+	font-size: 1.4rem;
+ }
+ #impi {
+	font-size: 2.4rem;
+ }
 
 
 
@@ -168,9 +166,20 @@ header div img {
 	border-bottom: 1px solid #ccc;
 	padding-top: 8px;
 	padding-bottom: 8px;
+	
 }
+
 #sec2 {
 	padding-top: 16px;
+}
+
+#bom {
+	width: 80px;
+	height: 30px;
+	color: #333333;
+	border-radius: 30px;
+	text-align: center;
+	padding: 2px;
 }
 
 /* Rodape */
@@ -182,4 +191,8 @@ header div img {
 	background-image: url('../img/bg.svg');
 	background-size: cover;
     background-position: center;
+}
+
+#copy {
+	font-size: 1.2rem;
 }
