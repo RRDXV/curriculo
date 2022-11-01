@@ -1,2 +1,2 @@
 # index.html
-# rrdxv.github.io/c1
+# rrdxv.github.io/curriculo
